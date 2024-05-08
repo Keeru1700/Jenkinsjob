@@ -15,6 +15,7 @@ public class Application implements CommandLineRunner {
 
 	public static void main(String[] args) {
 		logger.info("its a continous integration job");
+		logger.info("its a Devops Assignment");
 		SpringApplication.run(Application.class, args);
 	}
 
